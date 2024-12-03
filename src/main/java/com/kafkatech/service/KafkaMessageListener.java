@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class KafkaMessageListener {
 
-    Logger log = LoggerFactory.getLogger(KafkaMessageListener.class);
+    private static final Logger log = LoggerFactory.getLogger(KafkaMessageListener.class);
 
     @Value("${kafka-topic.name}")
     private String topicName;
