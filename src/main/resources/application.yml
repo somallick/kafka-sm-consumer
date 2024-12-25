@@ -1,13 +1,18 @@
 server:
   port: 8081
 
+# Comment if the config java code level configuration is used for connecting to kafka
+# and serialise related configuration
+
 spring:
   kafka:
     consumer:
       bootstrap-servers:  localhost:9092
       group-id: sm-group-1
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
 kafka-topic:
-  name: sm-test-topic-3
+  name: sm-test-topic-1
   partitions: 3
   replication-factor: 1
