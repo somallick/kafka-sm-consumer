@@ -105,3 +105,6 @@ kafka-consumer-groups --bootstrap-server localhost:9092 --group con-group-app-2 
 ### Execute flag is needed
 kafka-consumer-groups --bootstrap-server localhost:9092 --group con-group-app-2 --reset-offsets --to-earliest --topic sm-test-topic-2 --execute
 
+# Kafka Listener docs
+https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-annotation.html
+

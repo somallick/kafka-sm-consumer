@@ -15,6 +15,10 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
+/*
+ * Another method of consume message from kafka
+ * by using java code level configuration of kafka with manual poll
+ */
 @Service
 public class KafkaManualPoll {
 
