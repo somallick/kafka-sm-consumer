@@ -108,3 +108,6 @@ kafka-consumer-groups --bootstrap-server localhost:9092 --group con-group-app-2 
 # Kafka Listener docs
 https://docs.spring.io/spring-kafka/reference/kafka/receiving-messages/listener-annotation.html
 
+# Kafka Study Material
+https://learn.conduktor.io/kafka/what-is-apache-kafka/
+
